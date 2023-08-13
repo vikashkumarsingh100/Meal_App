@@ -1,0 +1,87 @@
+body {
+  background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink)
+    fixed;
+}
+#result {
+  border: 1px dotted #ccc;
+  padding: 3px;
+}
+#result ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#result ul li {
+  padding: 5px 0;
+}
+#result ul li:hover {
+  background: #eee;
+}
+i {
+  padding: 0 10px 0 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  font-size: larger;
+  margin-left: 20px;
+}
+h1 {
+  font-size: 4rem;
+  padding: 0px;
+  color: #22221f;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 40px 0px;
+}
+h3 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 58px;
+  margin: 0 0 58px;
+}
+h3 div {
+  font-size: 1.5rem;
+  color: #271212;
+  justify-content: center;
+  margin-left: 20px;
+}
+#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #271212;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 58px;
+  margin: 0 50px;
+}
+img {
+  height: 50vh;
+}
+
+button{
+  margin: 5px;
+  height: 20px;
+  color: #eee;
+  background:#271212 ;
+  
+}
+span:hover{
+  cursor: pointer;
+}
